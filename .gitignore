@@ -1,8 +1,10 @@
 # Dependency directories
 node_modules/
 
-# Generated reports 
-*report.html
+# Generated reports and project files
+reports/
+package-lock.json
+*.iml
 
 # Logs
 *.log
