@@ -1,0 +1,27 @@
+{
+  "defaults": {
+    "timeout": 10000
+  },
+  "urls": [
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/home.html",
+      "screenCapture": "reports/screenshots/home.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/news.html",
+      "screenCapture": "reports/screenshots/news.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/tickets.html",
+      "screenCapture": "reports/screenshots/tickets.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/survey.html",
+      "screenCapture": "reports/screenshots/survey.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/template.html",
+      "screenCapture": "reports/screenshots/template.png"
+    }
+  ]
+}

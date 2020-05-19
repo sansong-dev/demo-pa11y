@@ -4,7 +4,7 @@ const fs = require('fs');
 const pa11y = require('pa11y');
 const htmlReporter = require('pa11y-reporter-html');
 const targetUrl = 'https://www.w3.org/WAI/demos/bad/before/news.html';
-const reportsDir = "reports";
+const reportsDir = "pa11y/reports";
 
 if (!fs.existsSync(reportsDir))
     fs.mkdirSync(reportsDir);
