@@ -1,0 +1,34 @@
+{
+  "defaults": {
+    "timeout": 10000,
+    "reporters": [
+          [
+            "pa11y-ci-reporter-html",
+            { "destination": "./pa11y-ci/reports", "includeZeroIssues": true }
+          ]
+        ]
+  },
+  "urls": [
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/home.html",
+      "screenCapture": "pa11y-ci/reports/screenshots/home.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/news.html",
+      "screenCapture": "pa11y-ci/reports/screenshots/news.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/tickets.html",
+      "screenCapture": "pa11y-ci/reports/screenshots/tickets.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/survey.html",
+      "screenCapture": "pa11y-ci/reports/screenshots/survey.png"
+    },
+    {
+      "url": "https://www.w3.org/WAI/demos/bad/before/template.html",
+      "screenCapture": "pa11y-ci/reports/screenshots/template.png"
+    }
+  ]
+
+}
