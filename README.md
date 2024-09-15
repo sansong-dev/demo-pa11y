@@ -8,7 +8,7 @@ Accessibility test will be executed against [The Before and After Demonstration 
 
 Navigate to project folder on the command line
 
-    cd pa11y-demo
+    cd demo-pa11y
 
 Install dependencies
 
@@ -21,7 +21,7 @@ Run the following command
 
     npm run pa11y 
 
-View execution report located at reports/pa11y-test-report.html
+View execution report located at pa11y/reports/pa11y-test-report.html
 
 ![](docs/pa11y-report-example.png)
 
@@ -29,4 +29,6 @@ View execution report located at reports/pa11y-test-report.html
 Run the following command
 
     npm run pa11y-ci
-    npm run pa11y-ci-report
+
+View execution report located at pa11y-ci/reports/index.html
+
